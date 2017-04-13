@@ -1,4 +1,4 @@
-FROM openjdk:7-jdk
+FROM openjdk:8-jdk
 MAINTAINER Manuel de la Peña <manuel.delapenya@liferay.com>
 
 ENV DEBIAN_FRONTEND noninteractive

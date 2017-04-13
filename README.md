@@ -1,15 +1,15 @@
 ## Usage
 
-To create the image `mdelapenya/tomcat-mysql`, execute the following command on the mdelapenya-docker-tomcat-mysql folder:
+To create the image `jisc-conrent/tomcat-mysql`, execute the following command on the docker-tomcat-mysql folder:
 
 ```shell
-docker build -t mdelapenya/tomcat-mysql .
+docker build -t jisc-content/tomcat-mysql .
 ```
 
 You can now push your new image to the registry:
 
 ```shell
-docker push mdelapenya/tomcat-mysql
+docker push jisc-content/tomcat-mysql
 ```
 
 ## Running your tomcat-mysql docker image
@@ -17,7 +17,7 @@ docker push mdelapenya/tomcat-mysql
 Start your image binding the external ports 8080 and 3306 in all interfaces to your container:
 
 ```shell
-docker run -d -p 8080:8080 -p 3306:3306 mdelapenya/tomcat-mysql
+docker run -d -p 8080:8080 -p 3306:3306 jisc-content/tomcat-mysql
 ```
 
 Test your deployment:
